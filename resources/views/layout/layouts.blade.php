@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s4">
-                    <a href="index.html" class="button-link">
+                    <a href="{{ url('/') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-home"></i>
@@ -97,7 +97,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="product-list.html" class="button-link">
+                    <a href="{{ url('/product-list') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-bars"></i>
@@ -107,7 +107,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="shop-single.html" class="button-link">
+                    <a href="{{ url('/shop-single') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-eye"></i>
@@ -119,7 +119,7 @@
             </div>
             <div class="row">
                 <div class="col s4">
-                    <a href="wishlist.html" class="button-link">
+                    <a href="{{ url('/wishlist') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-heart"></i>
@@ -129,7 +129,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="cart.html" class="button-link">
+                    <a href="{{ url('/cart') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-shopping-cart"></i>
@@ -139,7 +139,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="checkout.html" class="button-link">
+                    <a href="{{ url('/checkout') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-credit-card"></i>
@@ -151,7 +151,7 @@
             </div>
             <div class="row">
                 <div class="col s4">
-                    <a href="blog.html" class="button-link">
+                    <a href="{{ url('/blog') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-bold"></i>
@@ -161,7 +161,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="blog-single.html" class="button-link">
+                    <a href="{{ url('/blog-single') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-file-text-o"></i>
@@ -171,7 +171,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="error404.html" class="button-link">
+                    <a href="{{ url('/error404') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-hourglass-half"></i>
@@ -183,7 +183,7 @@
             </div>
             <div class="row">
                 <div class="col s4">
-                    <a href="testimonial.html" class="button-link">
+                    <a href="{{ url('/testimonial') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-support"></i>
@@ -193,7 +193,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="about-us.html" class="button-link">
+                    <a href="{{ url('/about-us') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-user"></i>
@@ -203,7 +203,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="contact.html" class="button-link">
+                    <a href="{{ url('/contact') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-envelope-o"></i>
@@ -215,7 +215,7 @@
             </div>
             <div class="row">
                 <div class="col s4">
-                    <a href="setting.html" class="button-link">
+                    <a href="{{ url('/setting') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-cog"></i>
@@ -225,7 +225,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="login.html" class="button-link">
+                    <a href="{{ url('/login') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-sign-in"></i>
@@ -235,7 +235,7 @@
                     </a>
                 </div>
                 <div class="col s4">
-                    <a href="register.html" class="button-link">
+                    <a href="{{ url('/register') }}" class="button-link">
                         <div class="menu-link">
                             <div class="icon">
                                 <i class="fa fa-user-plus"></i>
